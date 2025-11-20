@@ -1,9 +1,9 @@
 import React from "react";
 
-export default function SideBar() {
+export default function Sidebar() {
   return (
     <nav>
-      <h1>SideBar</h1>
+      <h1>Sidebar</h1>
     </nav>
   );
 }
