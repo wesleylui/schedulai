@@ -1,6 +1,9 @@
-// Signup page.tsx
+import AuthForm from "@/components/AuthForm";
 
 export default function SignupPage() {
-  return <div>signup, make an account, give us your money</div>;
-  // 
+  return (
+    <div className="flex items-center justify-center min-h-screen bg-gray-50">
+      <AuthForm mode="signup" />
+    </div>
+  );
 }
